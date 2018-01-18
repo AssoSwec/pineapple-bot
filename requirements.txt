@@ -1,0 +1,5 @@
+discord.py
+praw
+prawcore
+markovify
+hackerrank-sdk
