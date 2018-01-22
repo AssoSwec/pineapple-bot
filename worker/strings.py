@@ -17,6 +17,8 @@ help_str = """
 ```
 """ + USER_AGENT + """ by @nickypy#8619
 Add me to your server: http://install-pineapple-bot.herokuapp.com/
+Report bugs here: https://github.com/nickypy/pineapple-bot/issues
+Check out my source code! https://github.com/nickypy/pineapple-bot
 """
 
 langs = """

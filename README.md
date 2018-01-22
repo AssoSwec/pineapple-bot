@@ -21,4 +21,7 @@ python pineapple-bot.py
 ##### Hosting on Heroku
 This repo should be good to go if you want to host it yourself.
 
+##### Bugs and Feature Requests
+Please file that as an issue [here](https://github.com/nickypy/pineapple-bot/issues)
+
 
