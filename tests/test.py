@@ -5,7 +5,7 @@ import unittest
 
 from hackerrank.HackerRankAPI import HackerRankAPI
 
-sys.path.append("../worker/")
+sys.path.append("worker/")
 
 from commands import get_food_pic, random_fact, gif, compile
 from strings import USER_AGENT
