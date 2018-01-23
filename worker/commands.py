@@ -32,7 +32,7 @@ def gif(search_term, giphy_key):
 def compile(message, compiler):
     # parse message for code blocks and send it to hackerrank API
 
-    arr = message.content.split('```')
+    arr = message.split('```')
 
     lang = arr[0].split(' ')[1].strip()
     source = arr[1]
@@ -49,6 +49,6 @@ def compile(message, compiler):
         if len(msg) != 0:
             return msg
         else:
-            "```An error occured. Check your code.```"
+            "An error occured. Check your code."
     else:
-        return "```" + str(result.message) + "```"
+        return str(result.message)

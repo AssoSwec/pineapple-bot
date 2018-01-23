@@ -72,7 +72,7 @@ async def on_message(message):
         await send_response(message.channel, msg_content)
 
     elif message.content.startswith("/compile"):
-        msg_content = compile(message, compiler)
+        msg_content = compile(message.content, compiler)
         await send_response(message.channel, msg_content)
 
     elif message.content.startswith("/languages"):
