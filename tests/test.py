@@ -43,24 +43,5 @@ class PineappleBotTest(unittest.TestCase):
 
         self.assertEqual(value, '```45\n```')
 
-    def test_compile_py_error_syntax(self):
-        message = ("/compile python3\n"
-                   "```\n"
-                   "x = 0"
-                   "for i in range(10):\n"
-                   "    x += i\n"
-                   "print(x)\n"
-                   "```")
-
-        value = compile(message, self.compiler)
-        # print(value)
-        error_message = ("```File \"solution.py\", line 2\n"
-                        "    x = 0for i in range(10):\n"
-                        "           ^\n"
-                        "SyntaxError: invalid syntax\n```")
-
-        self.assertEqual(value.strip(), error_message.strip())
-
-
 if __name__ == "__main__":
     unittest.main()
