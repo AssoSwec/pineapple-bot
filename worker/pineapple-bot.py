@@ -16,6 +16,7 @@ hackerrank_key = os.environ.get("hackerrank_key")
 discord_key = os.environ.get("discord_key")
 giphy_key = os.environ.get("giphy_key")
 
+# hello
 client = discord.Client()
 reddit = praw.Reddit(client_id=reddit_client_id,
                      client_secret=reddit_client_secret,

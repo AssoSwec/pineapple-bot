@@ -47,8 +47,8 @@ def compile(message, compiler):
         msg = str(out[0])
 
         if len(msg) != 0:
-            return msg
+            return "```" + msg + "```"
         else:
-            "An error occured. Check your code."
+            return "```An error occured. Check your code.```"
     else:
-        return str(result.message)
+        return "```" + str(result.message) + "```"
