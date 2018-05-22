@@ -4,21 +4,13 @@ help_str = """
 ```markdown
 # Commands:
 ---
-/goodbot
-/foodporn
-/shittyfoodporn
-/congratulations
-/randomfact
-/gif <search terms>
 /compile <lang> <formatted_source_code>
 /languages
-/ohgod
 ---
 ```
 """ + USER_AGENT + """ by @nickypy#8619
-Add me to your server: http://install-pineapple-bot.herokuapp.com/
-Report bugs here: https://github.com/nickypy/pineapple-bot/issues
-Check out my source code! https://github.com/nickypy/pineapple-bot
+Add me to your server: https://discordapp.com/oauth2/authorize?&client_id=354100308487569408&scope=bot&permissions=0
+Bugs and source code: https://github.com/nickypy/pineapple-bot/issues
 """
 
 langs = """
