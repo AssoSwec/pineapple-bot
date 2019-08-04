@@ -1,6 +1,6 @@
 from hackerrank.HackerRankAPI import HackerRankAPI
 
-key = "hackerrank|1093226-2147|d254e41b7b952d546e145cace83db907693971d3"
+key = ""
 compiler = HackerRankAPI(api_key = key)
 
 source = """
