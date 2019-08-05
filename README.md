@@ -1,4 +1,5 @@
 # Pineapple Bot
+*Deprecation notice: Ever since the Hackerrank API was deprecated, code related features are not available.*
 [![Build Status](https://travis-ci.org/nickypy/pineapple-bot.svg?branch=master)](https://travis-ci.org/nickypy/pineapple-bot)
 
 ### Adding to your server
